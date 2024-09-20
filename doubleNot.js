@@ -5,8 +5,8 @@
 
 //1-double not (!!)-->is used to convert any value to its corresponding boolean primitive.
 //how it works?
-//1-first step, a truthy value is converted to false and a falsy value is converted to true.
-//2-The second not then again does the same; returns false if its operand can be converted to true; otherwise, returns true.
+//first step, a truthy value is converted to false and a falsy value is converted to true.
+//The second not then again does the same; returns false if its operand can be converted to true; otherwise, returns true.
 //(The first ! converts true to false - The second ! converts false to true)
 
 
@@ -51,7 +51,7 @@ console.log(!!(true || false));//true
 console.log(!!(!true));//false
 console.log(!!(!false));//true
 
-//3-falsy values (falsey values) and use !! to test
+//2-falsy values (falsey values) and use !! to test
 //value that is considered false when encountered in a Boolean context.
 //JavaScript uses type conversion to coerce any value to a Boolean in contexts that require it
 
