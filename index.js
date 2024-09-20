@@ -5,7 +5,7 @@
 //isNaN()
 //Number.isNaN()
 //difference between isNaN() and Number.isNaN()
-//javascript booleans
+
 
 
 //javascript math
